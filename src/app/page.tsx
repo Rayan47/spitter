@@ -5,7 +5,7 @@ import LoginStatus from "@/components/LoginStatus";
 import UserProfileForm from "@/components/profile";
 import SpitGrid from "@/components/grid";
 import { getServerSession } from "next-auth";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import {authOptions} from "../../lib/configs/auth/authoptions";
 
 // In Next.js App Router, export a metadata object to set the page title.
 // The <title> tag does not work inside the component body.
